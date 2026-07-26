@@ -149,9 +149,3 @@ Run the test suite across all unit and end-to-end integration tests:
 ```bash
 python -m pytest
 ```
-
----
-
-## 📄 License
-
-MIT License. Designed and developed for enterprise product support assistant benchmarking.
