@@ -1,0 +1,15 @@
+streamlit
+chromadb
+sentence-transformers
+rank-bm25
+torch
+transformers
+pandas
+numpy
+plotly
+requests
+python-dotenv
+pydantic
+pytest
+scikit-learn
+pyyaml

@@ -1,0 +1,4 @@
+ticket_id,question,resolution,category,product_version,priority,status,created_at,reviewed,authority_score
+T001,"CSV export fails with EXP-3204 after upgrading","Clear report configuration cache and recreate export settings",reporting,3.2,high,resolved,2026-06-20,true,0.75
+T002,"Salesforce synchronization is delayed","Reauthorize the Salesforce connection and restart synchronization",integrations,3.2,high,resolved,2026-06-19,true,0.75
+T003,"Password reset email is not arriving","Verify identity provider mapping and check email delivery settings",authentication,3.1,medium,resolved,2026-05-03,true,0.75

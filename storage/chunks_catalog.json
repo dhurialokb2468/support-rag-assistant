@@ -1,0 +1,155 @@
+[
+  {
+    "chunk_id": "child_ee2823db7acfdf47d47d",
+    "document_id": "9e34d8cc5d5070a2",
+    "text": "# Exporting Reports\n\nInsightFlow allows users to export reports in CSV and PDF formats.\n\nUsers must have the Export Reports permission.\n\nTo export a report:\n\n1. Open the report.\n2. Select Export.\n3. Choose CSV or PDF.\n4. Select Download.",
+    "metadata": {
+      "title": "Report Export Guide",
+      "source": "data\\product_docs\\report_export.md",
+      "document_type": "product_documentation",
+      "product": "InsightFlow",
+      "version": "all",
+      "category": "reporting",
+      "updated_at": "2026-05-10",
+      "authority_score": 0.95,
+      "reviewed": true,
+      "extra": {
+        "section_heading": "# Exporting Reports",
+        "parent_id": "parent_ee2823db7acfdf47d47d",
+        "parent_text": "# Exporting Reports\n\nInsightFlow allows users to export reports in CSV and PDF formats.\n\nUsers must have the Export Reports permission.\n\nTo export a report:\n\n1. Open the report.\n2. Select Export.\n3. Choose CSV or PDF.\n4. Select Download."
+      }
+    },
+    "chunk_index": 0,
+    "parent_id": "parent_ee2823db7acfdf47d47d",
+    "parent_text": "# Exporting Reports\n\nInsightFlow allows users to export reports in CSV and PDF formats.\n\nUsers must have the Export Reports permission.\n\nTo export a report:\n\n1. Open the report.\n2. Select Export.\n3. Choose CSV or PDF.\n4. Select Download."
+  },
+  {
+    "chunk_id": "child_e1c96803ce1810407fff",
+    "document_id": "4abd6858f34baae1",
+    "text": "# Report Export Changes\n\nInsightFlow 3.2 introduced a new report export schema.\n\nReport configurations created in versions earlier than 3.2 may remain cached\nusing the older schema.\n\nThis can produce error EXP-3204 when users attempt to export reports as CSV.\n\nTo resolve the issue:\n\n1. Clear the report configuration cache.\n2. Recreate the affected export configuration.\n3. Retry the CSV export.",
+    "metadata": {
+      "title": "InsightFlow Version 3.2 Release Notes",
+      "source": "data\\release_notes\\version_3_2.md",
+      "document_type": "release_note",
+      "product": "InsightFlow",
+      "version": "3.2",
+      "category": "reporting",
+      "updated_at": "2026-06-15",
+      "authority_score": 0.93,
+      "reviewed": true,
+      "extra": {
+        "section_heading": "# Report Export Changes",
+        "parent_id": "parent_e1c96803ce1810407fff",
+        "parent_text": "# Report Export Changes\n\nInsightFlow 3.2 introduced a new report export schema.\n\nReport configurations created in versions earlier than 3.2 may remain cached\nusing the older schema.\n\nThis can produce error EXP-3204 when users attempt to export reports as CSV.\n\nTo resolve the issue:\n\n1. Clear the report configuration cache.\n2. Recreate the affected export configuration.\n3. Retry the CSV export."
+      }
+    },
+    "chunk_index": 0,
+    "parent_id": "parent_e1c96803ce1810407fff",
+    "parent_text": "# Report Export Changes\n\nInsightFlow 3.2 introduced a new report export schema.\n\nReport configurations created in versions earlier than 3.2 may remain cached\nusing the older schema.\n\nThis can produce error EXP-3204 when users attempt to export reports as CSV.\n\nTo resolve the issue:\n\n1. Clear the report configuration cache.\n2. Recreate the affected export configuration.\n3. Retry the CSV export."
+  },
+  {
+    "chunk_id": "child_99148383a21755686a1c",
+    "document_id": "264ddb1deb50e67a",
+    "text": "# Known Issue\n\nSome customers upgrading from InsightFlow 3.1 to 3.2 receive error EXP-3204\nduring CSV export.\n\nThe issue is caused by cached export settings that reference the deprecated\nreport schema.\n\nThe supported resolution is to clear the report configuration cache and\nrecreate the export settings.",
+    "metadata": {
+      "title": "CSV Export Failure After Version 3.2 Upgrade",
+      "source": "data\\known_issues\\export_failures.md",
+      "document_type": "known_issue",
+      "product": "InsightFlow",
+      "version": "3.2",
+      "category": "reporting",
+      "updated_at": "2026-06-18",
+      "authority_score": 0.9,
+      "reviewed": true,
+      "extra": {
+        "section_heading": "# Known Issue",
+        "parent_id": "parent_99148383a21755686a1c",
+        "parent_text": "# Known Issue\n\nSome customers upgrading from InsightFlow 3.1 to 3.2 receive error EXP-3204\nduring CSV export.\n\nThe issue is caused by cached export settings that reference the deprecated\nreport schema.\n\nThe supported resolution is to clear the report configuration cache and\nrecreate the export settings."
+      }
+    },
+    "chunk_index": 0,
+    "parent_id": "parent_99148383a21755686a1c",
+    "parent_text": "# Known Issue\n\nSome customers upgrading from InsightFlow 3.1 to 3.2 receive error EXP-3204\nduring CSV export.\n\nThe issue is caused by cached export settings that reference the deprecated\nreport schema.\n\nThe supported resolution is to clear the report configuration cache and\nrecreate the export settings."
+  },
+  {
+    "chunk_id": "child_8e84a15c419ca7781788",
+    "document_id": "a7f560e2f0c43b72",
+    "text": "Customer question:\nCSV export fails with EXP-3204 after upgrading\n\nResolution:\nClear report configuration cache and recreate export settings",
+    "metadata": {
+      "title": "Support Ticket T001",
+      "source": "data\\tickets\\support_tickets.csv",
+      "document_type": "support_ticket",
+      "product": "InsightFlow",
+      "version": "3.2",
+      "category": "reporting",
+      "updated_at": "2026-06-20",
+      "authority_score": 0.75,
+      "reviewed": true,
+      "extra": {
+        "ticket_id": "T001",
+        "priority": "high",
+        "status": "resolved",
+        "section_heading": "",
+        "parent_id": "parent_8e84a15c419ca7781788",
+        "parent_text": "Customer question:\nCSV export fails with EXP-3204 after upgrading\n\nResolution:\nClear report configuration cache and recreate export settings"
+      }
+    },
+    "chunk_index": 0,
+    "parent_id": "parent_8e84a15c419ca7781788",
+    "parent_text": "Customer question:\nCSV export fails with EXP-3204 after upgrading\n\nResolution:\nClear report configuration cache and recreate export settings"
+  },
+  {
+    "chunk_id": "child_419a6db2bd1b5bdcda79",
+    "document_id": "bd7443483dd0fd6a",
+    "text": "Customer question:\nSalesforce synchronization is delayed\n\nResolution:\nReauthorize the Salesforce connection and restart synchronization",
+    "metadata": {
+      "title": "Support Ticket T002",
+      "source": "data\\tickets\\support_tickets.csv",
+      "document_type": "support_ticket",
+      "product": "InsightFlow",
+      "version": "3.2",
+      "category": "integrations",
+      "updated_at": "2026-06-19",
+      "authority_score": 0.75,
+      "reviewed": true,
+      "extra": {
+        "ticket_id": "T002",
+        "priority": "high",
+        "status": "resolved",
+        "section_heading": "",
+        "parent_id": "parent_419a6db2bd1b5bdcda79",
+        "parent_text": "Customer question:\nSalesforce synchronization is delayed\n\nResolution:\nReauthorize the Salesforce connection and restart synchronization"
+      }
+    },
+    "chunk_index": 0,
+    "parent_id": "parent_419a6db2bd1b5bdcda79",
+    "parent_text": "Customer question:\nSalesforce synchronization is delayed\n\nResolution:\nReauthorize the Salesforce connection and restart synchronization"
+  },
+  {
+    "chunk_id": "child_3797b11fd0c36b31fdb3",
+    "document_id": "385f8b5736db1e04",
+    "text": "Customer question:\nPassword reset email is not arriving\n\nResolution:\nVerify identity provider mapping and check email delivery settings",
+    "metadata": {
+      "title": "Support Ticket T003",
+      "source": "data\\tickets\\support_tickets.csv",
+      "document_type": "support_ticket",
+      "product": "InsightFlow",
+      "version": "3.1",
+      "category": "authentication",
+      "updated_at": "2026-05-03",
+      "authority_score": 0.75,
+      "reviewed": true,
+      "extra": {
+        "ticket_id": "T003",
+        "priority": "medium",
+        "status": "resolved",
+        "section_heading": "",
+        "parent_id": "parent_3797b11fd0c36b31fdb3",
+        "parent_text": "Customer question:\nPassword reset email is not arriving\n\nResolution:\nVerify identity provider mapping and check email delivery settings"
+      }
+    },
+    "chunk_index": 0,
+    "parent_id": "parent_3797b11fd0c36b31fdb3",
+    "parent_text": "Customer question:\nPassword reset email is not arriving\n\nResolution:\nVerify identity provider mapping and check email delivery settings"
+  }
+]
