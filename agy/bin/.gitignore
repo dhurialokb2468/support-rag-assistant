@@ -1,8 +1,0 @@
-# Ignore binary executable
-agy.exe
-*.exe
-
-# Ignore python bytecode & environment
-__pycache__/
-*.pyc
-.env
